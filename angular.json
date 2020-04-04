@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "LabAssignment3"
+    }
+  },
+  "defaultProject": "LabAssignment3",
+  "cli": {
+    "analytics": "05329825-395a-4297-b30a-90872acc5947"
+  }
 }
