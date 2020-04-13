@@ -1,0 +1,31 @@
+<div class="row-two">
+    <div class="container-padding">
+        R2C1
+    </div>
+    <div class="container-padding">
+        <button (click)="addStudent()" class="add-button"> 
+            Add student
+        </button>
+        <table class="table-one">
+            <thead>
+                <tr>
+                    <td>ID:</td>
+                    <td>First Name</td>
+                    <td>Last Name</td>
+                    <td>Course List</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let student of students">
+                    <td>{{student.id}}</td>
+                    <td>{{student.firstName}}</td>
+                    <td>{{student.lastName}}</td>
+                    <td>{{student.course}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container-padding">
+        R2C3
+    </div>
+</div>

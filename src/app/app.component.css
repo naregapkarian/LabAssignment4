@@ -5,22 +5,22 @@
     grid-template-rows: 1fr 12fr 1fr;
 }
 
-.row-one,.row-two,.row-three {
+/* .row-one,.row-two,.row-three {
     display: grid;
     grid-template-columns: 1fr 5fr 2fr;
     background-color: rgb(60, 77, 170);
-}
+} */
 
-.row-two {
+/* .row-two {
     display: grid;
     grid-template-columns: 1fr 5fr 2fr;
     background-color: rgb(27, 37, 129);
-}
-.row-three {
+} */
+/* .row-three {
     display: grid;
     grid-template-columns: 1fr 5fr 2fr;
     background-color: rgb(12, 14, 100);
-}
+} */
 
 .container-padding { 
     margin: 12px;

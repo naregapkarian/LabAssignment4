@@ -11,7 +11,8 @@ import { MainFooterComponent } from './main-footer/main-footer.component';
     AppComponent,
     MainHeaderComponent,
     MainContentComponent,
-    MainFooterComponent
+    MainFooterComponent,
+   
   ],
   imports: [
     BrowserModule
